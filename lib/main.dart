@@ -51,7 +51,7 @@ class Login extends StatelessWidget {
               Container(
                 width: 350,
                 child: TextFormField(
-                decoration: InputDecoration(
+                  decoration: InputDecoration(
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(40)),
                       hintText: 'Email'),
@@ -63,6 +63,7 @@ class Login extends StatelessWidget {
               Container(
                 width: 350,
                 child: TextFormField(
+                  obscureText: true,
                   decoration: InputDecoration(
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(40)),
